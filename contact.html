@@ -1,1 +1,35 @@
-CONTATO
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contato</title>
+</head>
+<body>
+    <section class="form container">
+        <div class="container">
+            <form method="post" action="envia.php">
+                <h1>Entre em contato</h1>
+                <p>Preencha o formulário abaixo e entrarei em contato com você</p>
+                <div class="input-single">
+                    <input type="text" id="nome-box" class="input" autocomplete="off" name="nome" required>
+                    <label for="nome-box">Seu nome completo</label>
+                </div>
+                <div class="input-single">
+                    <input type="text" id="email-box" class="input" autocomplete="off" name="email" required>
+                    <label for="email-box">Seu e-mail</label>
+                </div>
+                <div class="input-single">
+                    <input type="text"  id="tel-box" class="input" autocomplete="off" name="tel" required >
+                    <label for="tel-box">Seu telefone</label>
+                </div>
+                <div class="botom">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+
+        </div>
+    </section>
+</body>
+</html>

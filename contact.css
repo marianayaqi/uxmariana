@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: black;
+    font-family: "Nunito";
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nunito {
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    position: relative;
+  }
+
+  .container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 4%;
+  }
+
+  .form{
+    background-color: white;
+    max-width: 500px;
+    height: 450px;
+    padding: 40px;
+    border-radius: 20px;
+  }
+
+  form h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #A66F8D;
+  }
+
+  form p{
+    text-align: center;
+    margin: 30px 0;
+  }
+
+.input-single{
+    position: relative;
+    margin: 20px 0;
+}
+
+.input-single label{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    transition: all 0.2s;
+    cursor: text;
+}
+
+.input{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    font-size: 17px;
+    outline: 0;
+}
+
+form .input-single .input:focus ~ label,
+form .input-single .input:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: #A66F8D;
+}
+
+.botom{
+    width: 100%;
+    text-align: center;
+}
+
+form input[type=submit]{
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #A66F8D;
+    color: white;
+}

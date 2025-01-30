@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 body {
     color: black;
     font-family: "Nunito";
@@ -81,5 +83,5 @@ padding: 0px 50px;
     background-position: center top;
     background-repeat: repeat;
     z-index: -1;
-    opacity: 0.4;
+    opacity: 0.3;
   }
