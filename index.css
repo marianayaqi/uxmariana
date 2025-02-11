@@ -7,8 +7,9 @@
 }
 
 body {
-    color: black;
+    color: white;
     font-family: "Nunito";
+    background-color: black;
 }
 
 button {
@@ -109,7 +110,6 @@ padding: 0px 50px;
     content: "";
     position: fixed;
     inset: 0;
-    background-image: url("./img/fundo.jpg");
     background-size: 100% 100%;
     background-position: center top;
     background-repeat: repeat;

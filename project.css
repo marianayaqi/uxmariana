@@ -18,6 +18,29 @@ body{
     justify-content: center;
 }
 
+button {
+    padding: 8px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #A66F8D;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    box-shadow: 3px 3px 10px #270131;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
 h2 {
     text-align: center;
     margin-top: 60px;
